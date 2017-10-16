@@ -1,5 +1,5 @@
 {
-  "name": "countinium",
+  "name": "continium",
   "private": true,
   "scripts": {
     "start": "meteor run"

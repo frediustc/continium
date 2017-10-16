@@ -1,25 +1,37 @@
 <head>
-  <title>countinium</title>
+  <title>layouts</title>
+  <link rel="stylesheet" href="/icon/styles.css">
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
-  {{> info}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+<template name="LogInPage">
+    <div id="LogInPage" class="w-100 h-100">
+        <div id="__TopMenu" class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 id="__logo" class="float-left mb-0">CONTINIUM</h1>
+                    <div id="__URL" class="float-left">
+                        <button class="icon ctm-android-globe float-left p-0"></button>
+                        <ol class="breadcrumb m-0 float-left">
+                          <li class="breadcrumb-item"><a href="#">Myproject</a></li>
+                          <li class="breadcrumb-item"><a href="#">Mypage</a></li>
+                          <li class="breadcrumb-item active">CurrentPage</li>
+                        </ol>
+                        <button class="icon ctm-add float-right p-0"></button>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <ul class="list-unstyled p-0 justify-content-end text-right m-0">
+                        <li class="d-inline-block"><button type="button" id="libraries" class="icon ctm-library-2 p-0"></button></li>
+                        <li class="d-inline-block"><button type="button" id="components" class="icon ctm-component p-0"></button></li>
+                        <li class="d-inline-block"><span class="icon name">Fredius Tout Court</span></li>
+                        <li class="d-inline-block"><span id="user" class="icon ctm-user p-0"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
