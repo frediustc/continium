@@ -18,7 +18,7 @@ body{
   background: #eee;
 }
 
-#LogInPage{
+#__app{
 
 }
 /* color : #616161*/
@@ -76,6 +76,8 @@ body{
     font-family: "continium" !important;
     font-size: 11px;
     line-height: 14px;
+    position: relative;
+    top: 1px;
 }
 .icon.name{
     font-size: 13px;

@@ -10,6 +10,7 @@ aldeed:schema-index@1.1.1
 aldeed:simple-schema@1.5.3
 alexwine:bootstrap-4@4.0.0-beta.1
 allow-deny@1.0.9
+arunoda:npm@0.2.6
 autoupdate@1.3.12
 babel-compiler@6.20.0
 babel-runtime@1.0.1
@@ -94,6 +95,7 @@ mongo-dev-server@1.0.1
 mongo-id@1.0.6
 mouse0270:bootstrap-notify@3.1.3
 mrt:jquery-ui-sortable@1.10.3
+mrt:paypal@1.1.1
 msavin:jetsetter@4.0.0
 msavin:mongol@4.0.1
 natestrauser:animate-css@3.5.1
