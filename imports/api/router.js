@@ -9,6 +9,24 @@ Router.route('/', function () {
 
 //Load App
 Router.route('/app', function () {
-  this.render('app');
-  console.log(Meteor.user());
+
+  if(!Meteor.user()){
+      this.redirect('/login');
+  }
+  else {
+      this.render('app');
+  }
+
+});
+
+//log in page
+Router.route('/login', function(){
+
+    if(Meteor.user()){
+        this.redirect('/app');
+    }
+    else {
+        this.render('loginPage');
+    }
+
 });

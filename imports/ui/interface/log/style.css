@@ -1,0 +1,21 @@
+#logbox{
+    width: 340px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px rgba(157, 193, 162, 0.2);
+    border-radius: 10px;
+}
+#logbox .small{
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+#logbox .ft-thin{
+    font-weight: 100;
+}
+
+#logbox .form-group{
+    padding-left: 10px;
+    border-left: 3px solid #eee;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
