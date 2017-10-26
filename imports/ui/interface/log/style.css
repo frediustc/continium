@@ -1,21 +1,108 @@
 #logbox{
-    width: 340px;
-    padding: 0px 20px;
+    width: 400px;
+    padding: 10px 20px;
     box-sizing: border-box;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 20px 0px rgba(157, 193, 162, 0.2);
-    border-radius: 10px;
 }
+
+a {
+    color: #42A4FF;
+}
+
+#top-info {
+    max-width: 450px;
+}
+
+#logbox .btn {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: linear all .3s;
+    border-radius: 0;
+
+}
+
+#logbox .btn:hover {
+    opacity: 1;
+}
+
 #logbox .small{
     font-size: 0.7em;
     opacity: 0.5;
 }
+
 #logbox .ft-thin{
-    font-weight: 100;
+    font-weight: 200;
+}
+
+#logbox .form-title{
+    font-size: 14px;
+    font-weight: 800;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#logbox label{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
 
 #logbox .form-group{
-    padding-left: 10px;
-    border-left: 3px solid #eee;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 10px 0;
+}
+
+#logbox .form-group .form-control
+{
+    padding: 5px 0;
+    border-radius: 0;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+#logAlt .btn{
+    width: 90%;
+    font-size: 0.8em;
+    margin: 20px 0;
+}
+
+#logbox .logBtn{
+    margin: 30px 0;
+    background-color: #47EB94;
+    border: none;
+}
+
+#logbox .legend{
+    padding: 10px 0;
+    position: relative;
+    margin: 20px 0;
+}
+
+#logbox .legend span {
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 30px);
+}
+
+#logbox .legend::before {
+    content: '';
+    height: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.03);
+    width: 100%;
+    display: block;
+}
+
+.facebook-btn {
+    background-color: #73B5F3;
+}
+.google-btn {
+    background-color: #FF7070;
 }

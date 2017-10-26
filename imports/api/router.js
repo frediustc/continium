@@ -30,3 +30,15 @@ Router.route('/login', function(){
     }
 
 });
+
+//log in page
+Router.route('/register', function(){
+
+    if(Meteor.user()){
+        this.redirect('/app');
+    }
+    else {
+        this.render('registerPage');
+    }
+
+});
