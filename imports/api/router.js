@@ -4,7 +4,7 @@ import '/imports/ui/interface/';
 
 //Main Page
 Router.route('/', function () {
-  this.render('app');
+  this.render('loginPage');
 });
 
 //Load App
